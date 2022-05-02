@@ -1,6 +1,6 @@
 
 		// INSERT point feature
-		function insertPoint(url_wfs, typeName, namespace_prefix, namespace_uri, featProperties, geomPropertyName, lng, lat) {
+function insertPoint(url_wfs, typeName, namespace_prefix, namespace_uri, featProperties, geomPropertyName, lng, lat, callback) {
 								
             // FIXME: MM CHECK
 			var postData = 
@@ -40,7 +40,8 @@
 						console.log( 'point feature '+ fid +' inserted successfully' ) ;
 						alert( fid +' is stored') ;
 						$(".leaflet-popup-close-button")[0].click() ;
-						
+
+						callback();
 					}			
 					else if (xml.documentElement.nodeName === 'ServiceExceptionReport' ) {
 						console.log('error in WFS insert of feature') ;
