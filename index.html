@@ -1,36 +1,36 @@
 <html>
 
 <head>
-  <title>Express</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <link rel="manifest" href="/manifest.json">
+    <title>CGI GeoPWA</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="manifest" href="/manifest.json">
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-    crossorigin="" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 
-  <script type="module" src="/pwabuilder-sw-register.js"></script>
+    <script type="module" src="/pwabuilder-sw-register.js"></script>
 </head>
 
 <body>
-  <div id="map-canvas"></div>
-  <p id="errors"></p>
+    <div id="map-canvas"></div>
+    <p id="errors"></p>
 
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
-  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.12/proj4.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.12/proj4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script src="javascripts/lib/proj4leaflet.js"></script>
-  <script src="javascripts/lib/leaflet.wms.js"></script>
+    <script src="javascripts/lib/proj4leaflet.js"></script>
+    <script src="javascripts/lib/leaflet.wms.js"></script>
 
-  <script src="javascripts/lib/geojson.wfs.js"></script>
-  <script src="javascripts/lib/events.wfs.js"></script>
-  <script src="javascripts/lib/insert.wfs.js"></script>
-  <script src="javascripts/main.js"></script>
+    <script src="javascripts/lib/geojson.wfs.js"></script>
+    <script src="javascripts/lib/events.wfs.js"></script>
+    <script src="javascripts/lib/insert.wfs.js"></script>
+    <script src="javascripts/main.js"></script>
 </body>
 
 </html>

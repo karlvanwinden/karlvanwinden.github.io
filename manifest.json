@@ -1,8 +1,8 @@
 {
     "lang": "en-us",
-    "name": "My Sample PWA",
-    "short_name": "SamplePWA",
-    "description": "A sample PWA for testing purposes",
+    "name": "CGI GeoPWA",
+    "short_name": "CGIGeoPWA",
+    "description": "A sample Geo PWA for TU Delft Geoweb course",
     "start_url": "/",
     "background_color": "#2f3d58",
     "theme_color": "#2f3d58",
